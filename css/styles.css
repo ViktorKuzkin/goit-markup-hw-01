@@ -8,7 +8,7 @@
     --background-color: #F5F4FA;
 }
 
-.body {
+body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--body-color);
     color: var(--text-color);
@@ -167,7 +167,7 @@
 }
 
 .footer-a {
-    color: var(--body-color);
+    color: var(--text-color);
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -238,3 +238,18 @@
 .team {
     background-color:  var(--background-color);
 }
+
+.footer-location {
+    color: var(--body-color);
+    text-decoration: none;
+    font-style: normal;
+}
+
+.footer-location:hover, .footer-location:focus {
+    color: var(--link-color);
+}
+
+
+
+
+
