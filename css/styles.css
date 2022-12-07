@@ -94,7 +94,9 @@ body {
     height: 50px;
 }
 
-.button:hover, .button:fokus
+.button:hover, .button:focus {
+    background-color: #188CE8;
+}
 
 .paragraph {
     color: var(--text-color);
@@ -138,7 +140,6 @@ body {
 
 .team-p {
     color: var(--text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.1;
     letter-spacing: 0.03em;
@@ -192,6 +193,7 @@ body {
     border-style: none;
     background: var(--background-color);
     border-radius: 4px;
+    font-family: 'Roboto', sans-serif ;
 
 }
 
@@ -211,7 +213,6 @@ body {
 
 .cards-p {
     color: var(--text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.03em;
@@ -248,6 +249,23 @@ body {
 .footer-location:hover, .footer-location:focus {
     color: var(--link-color);
 }
+
+.filter {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+
 
 
 
